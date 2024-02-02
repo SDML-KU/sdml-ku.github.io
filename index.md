@@ -22,7 +22,7 @@ Joining Department of Artificial Intelligence at Korea University
 %}
 
 {% endcapture %}
-<!-- 
+
 {%
   include feature.html
   image="images/photo.jpg"
@@ -77,4 +77,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   link="team"
   title="Our Team"
   text=text
-%} -->
+%}
