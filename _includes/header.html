@@ -1,9 +1,9 @@
 {% assign image = page.header | default: site.header | relative_url %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
-{% assign svg = "images/ku_logos/crimson2positive.gif" | file_exists %}
-{% assign png = "images/ku_logos/crimson2positive.gif" | file_exists %}
-{% assign jpg = "images/ku_logos/crimson2positive.gif" | file_exists %}
+{% assign gif = "images/ku_logos/crimson2positive.gif" | file_exists %}
+<!-- {% assign png = "images/ku_logos/crimson2positive.gif" | file_exists %}
+{% assign jpg = "images/ku_logos/crimson2positive.gif" | file_exists %} -->
 {% assign logo = gif | default: png | default: jpg | default: nil %}
 
 <header
