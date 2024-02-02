@@ -1,18 +1,15 @@
 # site properties and page defaults
-title: SDML-KU
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+title: Stochastic Dynamics and Machine Learning Lab
+subtitle: SDML@Korea University
+description: Build efficient, robust, intelligent algorithms.
+header: images/background.avif
+footer: images/background.avif
 
 # site social media and other links
 links:
-  email: contact@SDML-KU.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: SDML-KU
-  twitter: SDML-KU
-  youtube: SDML-KU
+  email: anhtong12@korea.ac.kr
+  github: sdml-ku
+
 
 ### jekyll settings
 
