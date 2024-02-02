@@ -14,7 +14,7 @@ Joining Department of Artificial Intelligence at Korea University
 
 {%
   include button.html
-  <!-- link=http://xai.korea.ac.kr/ -->
+  link="research"
   text="AI Korea University"
   icon="fa-solid fa-arrow-right"
   flip=true
