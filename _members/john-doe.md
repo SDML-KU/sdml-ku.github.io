@@ -4,7 +4,7 @@ image: images/photo.jpg
 role: phd
 group: alum
 links:
-  github: john-doe
+  github: first-student
 ---
 
 Placeholder for the first student to join
