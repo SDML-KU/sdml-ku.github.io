@@ -10,7 +10,7 @@
 
 {% capture text %}
 
-Joining Department of Artificial Intelligence at Korea University
+Joining the Department of Artificial Intelligence at Korea University
 
 {%
   include button.html
