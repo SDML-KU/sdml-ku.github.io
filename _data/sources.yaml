@@ -73,3 +73,16 @@
   publisher: AAAI Conference on Artificial Intelligence (AAAI)
   date: 2021-01-01
   link: https://ojs.aaai.org/index.php/AAAI/article/view/17191/16998
+
+- id: doi:10.1007/s11356-023-29036-0
+
+- title: Global Contrastive Learning for Long-Tailed Classification
+  authors:
+    - Thong Bach
+    - Anh Tong
+    - Truong Hy Son
+    - Vu Nguyen
+    - Thanh Nguyen-Tang
+  publisher: Transactions on Machine Learning Research (TMLR)
+  date: 2023
+  link: https://openreview.net/pdf?id=xWrtiJwJj5
