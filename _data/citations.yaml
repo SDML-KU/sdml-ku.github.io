@@ -77,3 +77,30 @@
   link: https://ojs.aaai.org/index.php/AAAI/article/view/17191/16998
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1007/s11356-023-29036-0
+  title: Roles of ambient temperature and relative humidity on the relationship between
+    fine particulate matter and gaseous pollutants in the largest industrial city
+    of Ulsan, South Korea
+  authors:
+  - Tien Van Do
+  - Quang Tran Vuong
+  - Anh Tong
+  - Chang-Keun Song
+  - Sung-Deuk Choi
+  publisher: Environmental Science and Pollution Research
+  date: '2023-08-16'
+  link: https://doi.org/gtkz76
+  plugin: sources.py
+  file: sources.yaml
+- title: Global Contrastive Learning for Long-Tailed Classification
+  authors:
+  - Thong Bach
+  - Anh Tong
+  - Truong Hy Son
+  - Vu Nguyen
+  - Thanh Nguyen-Tang
+  publisher: Transactions on Machine Learning Research (TMLR)
+  date: '1970-01-01'
+  link: https://openreview.net/pdf?id=xWrtiJwJj5
+  plugin: sources.py
+  file: sources.yaml
