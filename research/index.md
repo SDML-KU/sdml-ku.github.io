@@ -10,11 +10,11 @@ nav:
 
 {% include section.html %}
 
-## Highlighted
+<!-- ## Highlighted
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
-{% include section.html %}
+{% include section.html %} -->
 
 ## All
 
