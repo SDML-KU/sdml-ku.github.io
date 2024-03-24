@@ -22,7 +22,7 @@
     - Anh Tong
     - Jaesik Choi
   publisher: International Conference on Machine Learning (ICML)
-  date: '2016-01-01'
+  date: 2016-01-01
   link: http://proceedings.mlr.press/v48/hwangb16.pdf
 
 - title: Discovering Latent Covariance Structures for Multiple Time Series
@@ -30,7 +30,7 @@
     - Anh Tong
     - Jaesik Choi
   publisher: International Conference on Machine Learning (ICML)
-  date: '2019-01-01'
+  date: 2019-01-01
   link: http://proceedings.mlr.press/v97/tong19a/tong19a.pdf
 
 - title: Confirmatory Bayesian online change point detection in the covariance structure of Gaussian processes
@@ -40,7 +40,7 @@
     - Anh Tong
     - Jaesik Choi
   publisher:  International Joint Conference on Artificial Intelligence (IJCAI)
-  date: '2019-01-01'
+  date: 2019-01-01
   link: https://www.ijcai.org/Proceedings/2019/0340.pdf
 
 - title: Learning fractional white noises in neural stochastic differential equations
@@ -50,7 +50,7 @@
     - Toan Tran
     - Jaesik Choi
   publisher: Advances in Neural Information Processing Systems (NeurIPS)
-  date: '2022-12-01'
+  date: 2022-12-01
   link: https://proceedings.neurips.cc/paper_files/paper/2022/file/f51df088779c27cbb25b8f094a346544-Paper-Conference.pdf
 
 - title: Learning Compositional Sparse Gaussian Processes with a Shrinkage Prior
@@ -60,7 +60,7 @@
     - Hung Bui
     - Jaesik Choi
   publisher: AAAI Conference on Artificial Intelligence (AAAI)
-  date: '2021-01-01'
+  date: 2021-01-01
   link: https://ojs.aaai.org/index.php/AAAI/article/download/17190/16997
 
 - title: Characterizing Deep Gaussian Processes via Nonlinear Recurrence Systems
@@ -68,7 +68,7 @@
     - Anh Tong
     - Jaesik Choi
   publisher: AAAI Conference on Artificial Intelligence (AAAI)
-  date: '2021-01-01'
+  date: 2021-01-01
   link: https://ojs.aaai.org/index.php/AAAI/article/view/17191/16998
 
 - id: doi:10.1007/s11356-023-29036-0
@@ -81,5 +81,5 @@
     - Vu Nguyen
     - Thanh Nguyen-Tang
   publisher: Transactions on Machine Learning Research (TMLR)
-  date: '2023-01-01'
+  date: 2023-01-01
   link: https://openreview.net/pdf?id=xWrtiJwJj5
