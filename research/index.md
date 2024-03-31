@@ -25,7 +25,7 @@ nav:
 
 
 
-{% include citation.html lookup="Learning Fractional White Noises in Neural Stochastic Differential Equations" style="rich" %}
+{% include citation.html lookup="Learning fractional white noises in neural stochastic differential equations" style="rich" %}
 
 {% include citation.html lookup="Characterizing Deep Gaussian Processes via Nonlinear Recurrence Systems" style="rich" %}
 
