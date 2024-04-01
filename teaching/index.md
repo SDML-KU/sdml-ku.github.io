@@ -5,10 +5,10 @@ nav:
   tooltip: Teaching
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+{% include icon.html icon="fa-solid fa-feather-pointed" %} Teaching
 
 <h3>Spring 2024</h3>
 
-Bayesian Machine Learning
-Reinforcement Learning
+- Bayesian Machine Learning
+- Reinforcement Learning
 
