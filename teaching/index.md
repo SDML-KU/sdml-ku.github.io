@@ -12,3 +12,8 @@ nav:
 - Bayesian Machine Learning
 - Reinforcement Learning
 
+  
+<h3>Fall 2024</h3>
+
+- Natural Language Processing
+- Artificial Intelligence in Finance
