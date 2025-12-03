@@ -1,77 +1,35 @@
 ---
 ---
 
-.portrait-wrapper {
-  display: contents;
-}
-
-.portrait {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  margin: 20px;
-  width: 175px;
-  max-width: calc(100% - 20px - 20px);
-  text-decoration: none;
-}
-
-.portrait[data-style="small"] {
-  width: 100px;
-}
-
-.portrait[data-style="tiny"] {
-  flex-direction: row;
-  gap: 15px;
-  width: unset;
-  text-align: left;
-}
-
-.portrait-image {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  border-radius: 999px;
-  object-fit: cover;
-  box-shadow: var(--shadow);
-}
-
-.portrait[data-style="tiny"] .portrait-image {
-  width: 50px;
-}
-
-.portrait[data-style="tiny"] .portrait-role {
-  display: none;
-}
-
-.portrait-text {
-  display: flex;
-  flex-direction: column;
-  line-height: calc(var(--spacing) - 0.4);
-}
-
-.portrait-name {
-  font-family: var(--heading);
-  font-weight: var(--semi-bold);
-}
-
-.portrait-role .icon {
-  position: absolute;
-  left: 0;
-  top: 0;
+.cmu-profile-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 20%;
-  aspect-ratio: 1 / 1;
-  border-radius: 999px;
-  background: var(--background);
-  box-shadow: var(--shadow);
-  transform: translate(14%, 14%);
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
 }
 
-.portrait[data-style="small"] .portrait-role .icon {
-  left: -2px;
-  top: -2px;
+@media (max-width: 768px) {
+  .cmu-profile-container {
+    flex-wrap: wrap; 
+  }
 }
+.cmu-profile-left{
+  margin-top: 50px;
+  place-items: center;
+  .cmu-profile-name-title{
+    display: grid;
+    place-items: center;
+    }
+  .cmu-profile-social{
+    display:flex;
+    justify-content: between;
+    gap: 10px;
+  }
+  }  
+
+.cmu-profile-right{
+  margin-left: 20px;
+}
+
+

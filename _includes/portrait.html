@@ -1,42 +1,94 @@
-{% assign member = site.members 
-  | where_exp: "member", "member.slug == include.lookup"
-  | first
-  | default: include
+{% assign m = site.members 
+  | where_exp: "x", "x.slug == page.slug" 
+  | first 
 %}
 
-<div class="portrait-wrapper">
-  <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url }}"
-    {% endif %}
-    class="portrait"
-    data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" }}"
-  >
-    <img
-      src="{{ member.image | relative_url }}"
-      class="portrait-image"
-      alt="member portrait"
-      loading="lazy"
-      {% include fallback.html %}
-    >
+<div class="cmu-profile-container">
+  
+  <!-- LEFT: Photo + Name + Title + Social Icons -->
+  <div class="cmu-profile-left">
+    <img src="{{ m.image | relative_url }}" alt="{{ m.name }}" class="cmu-profile-photo">
+      <div class="cmu-profile-name-title">     
+       <h1 class="cmu-profile-name">{{ m.name }}</h1>
+      {% if m.title %}
+      <p class="cmu-profile-title">{{ m.title }}</p>
+      {% endif %} 
+      </div>
+            <!-- Social Icons -->
+      <div class="cmu-profile-social">
 
-    {% if member.name or member.role or member.description %}
-      <span class="portrait-text">
-        {% if member.name %}
-          <span class="portrait-name">
-            {{ member.name }}
-          </span>
+        {% if m.linkedin %}
+          <a class="social-icon" href="{{ m.linkedin }}" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        {% endif %}
+        {% if m.github %}
+          <a class="social-icon" href="{{ m.github }}" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
         {% endif %}
 
-        {% if member.role or member.description %}
-          <span class="portrait-role">
-            {% assign type = site.data.types[member.role] %}
-            {% include icon.html icon=type.icon %}
-            <span>{{ member.description | default: type.description }}</span>
-          </span>
+        {% if m.twitter %}
+          <a class="social-icon" href="{{ m.twitter }}" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
         {% endif %}
-      </span>
+
+        {% if m.website %}
+          <a class="social-icon" href="{{ m.website }}" target="_blank">
+            <i class="fa-solid fa-globe"></i>
+          </a>
+        {% endif %}
+
+      </div>
+  </div>
+
+  <!-- RIGHT: Bio + Education + Publications + Contact Info -->
+  <div class="cmu-profile-right">
+    <div class="cmu-profile-top">
+      <h2 class="cmu-section-title">Reaserch Interester</h2>
+      {% if m.interested %}
+      <p class="cmu-profile-bio">{{ m.interested }}</p>
+      {% endif %}
+      {% if m.education %}
+      <h2 class="cmu-section-title">Education</h2>
+      <ul class="cmu-section-list">
+        {% for edu in m.education %}
+        <li>{{ edu }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if m.publications %}
+      <h2 class="cmu-section-title">Publications</h2>
+      <ul class="cmu-section-list">
+        {% for p in m.publications %}
+        <li>
+          <strong><a href="{{ p.link }}" target="_blank">{{ p.title }}</a></strong><br>
+          <span class="cmu-pub-venue">{{ p.venue }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+    </div>
+
+<div class="cmu-profile-bottom">
+  <h2 class="cmu-section-title">Contact Information</h2>
+
+  <div class="contact-row">
+    {% if m.email %}
+    <p class="cmu-profile-email">
+      {% include button.html type="email" text=m.email link=m.email %}
+    </p>
+
     {% endif %}
-  </a>
+
+    {% if m.address %}
+    <p class="cmu-profile-address">{{ m.address }}</p>
+    {% endif %}
+  </div>
+</div>
+
+  </div>
 </div>

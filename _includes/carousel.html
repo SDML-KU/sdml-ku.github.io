@@ -1,0 +1,51 @@
+<div class="carousel" id="{{ include.id | default: 'carousel-1' }}">
+  <div class="carousel-track">
+    {% assign imgs = include.images | split: "," %}
+    {% for img in imgs %}
+      <div class="carousel-slide">
+        <img src="/images/{{ img | strip }}" alt="slide {{ forloop.index }}">
+      </div>
+    {% endfor %}
+  </div>
+
+  <button class="carousel-btn prev">❮</button>
+  <button class="carousel-btn next">❯</button>
+
+  <div class="carousel-dots">
+    {% for img in imgs %}
+      <span class="dot" data-index="{{ forloop.index0 }}"></span>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.getElementById("{{ include.id | default: 'carousel-1' }}");
+  if (!carousel) return;
+
+  const track = carousel.querySelector(".carousel-track");
+  const slides = Array.from(track.children);
+  const nextBtn = carousel.querySelector(".next");
+  const prevBtn = carousel.querySelector(".prev");
+  const dots = carousel.querySelectorAll(".dot");
+
+  let index = 0;
+
+  function updateCarousel(i) {
+    index = (i + slides.length) % slides.length;
+    track.style.transform = `translateX(-${index * 100}%)`;
+
+    dots.forEach(d => d.classList.remove("active"));
+    dots[index].classList.add("active");
+  }
+
+  nextBtn.onclick = () => updateCarousel(index + 1);
+  prevBtn.onclick = () => updateCarousel(index - 1);
+  dots.forEach(d => d.onclick = () => updateCarousel(parseInt(d.dataset.index)));
+
+  // Auto play
+  setInterval(() => updateCarousel(index + 1), 5000);
+
+  updateCarousel(0);
+});
+</script>

@@ -10,5 +10,13 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-redirect-from"
   gem "jekyll-feed"
-  gem "jekyll-last-modified-at"
+
 end
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"
+
+gem "bigdecimal", "~> 3.3"
+
+gem 'jekyll-data-pages'

@@ -7,7 +7,68 @@
   repo: anh-tong/signax
   tags:
     - resource
+- title: Vision-based Drone Control
+  subtitle: Reinforcement Learning Approach
+  group: featured
+  image: images/2.jpg
+  link: projects/drone-control.html
+  description: Autonomous flight control using visual input and reinforcement learning techniques.
+  repo: github.com/vohuuanhtuan/drone-control
+  tags:
+    - AI
+    - robotics
 
+- title: Climate Insights
+  subtitle: Environmental Data Visualization
+  group: featured
+  image: images/3.jpg
+  link: projects/climate-insights.html
+  description: Interactive visualization of climate data trends with D3.js and Python.
+  repo: github.com/vohuuanhtuan/climate-insights
+  tags:
+    - data
+    - visualization
+
+- title: Signax
+  subtitle: Differentiable Signature Computation in JAX
+  group: featured
+  image: images/12.jpg
+  link: projects/signax.html
+  description: A JAX-based implementation for differentiable signature computation.
+  repo: anh-tong/signax
+  tags:
+    - resource
+    - research
+- title: Signax
+  subtitle: Differentiable Signature Computation in JAX
+  group: featured
+  image: images/12.jpg
+  link: projects/signax.html
+  description: A JAX-based implementation for differentiable signature computation.
+  repo: anh-tong/signax
+  tags:
+    - resource
+    - research
+- title: Signax
+  subtitle: Differentiable Signature Computation in JAX
+  group: featured
+  image: images/12.jpg
+  link: projects/signax.html
+  description: A JAX-based implementation for differentiable signature computation.
+  repo: anh-tong/signax
+  tags:
+    - resource
+    - research
+- title: Signax
+  subtitle: Differentiable Signature Computation in JAX
+  group: featured
+  image: images/12.jpg
+  link: projects/signax.html
+  description: A JAX-based implementation for differentiable signature computation.
+  repo: anh-tong/signax
+  tags:
+    - resource
+    - research
 # - title: Cool Package
 #   subtitle: a subtitle
 #   group: featured
