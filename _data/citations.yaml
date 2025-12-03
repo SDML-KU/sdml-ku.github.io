@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'A Survey on Deep Hedging'
+  authors:
+  - Thanh Nguyen-Tang
+  - Anh Tong
+  - Toan M Tran
+  - Jaesik Choi
+  publisher: ACM Computing Surveys
+  date: '2024-05-13'
+  link: https://doi.org/gtj2ja
+  plugin: sources.py
+  file: sources.yaml
+  image: https://media.springernature.com/w316/springer-static/image/art%3A10.1145%2F3453150/MediaObjects/11357_2020_Article_3150_Fig1_HTML.png
+  
 - id: doi:10.1145/3604237.3626841
   title: 'SigFormer: Signature Transformers for Deep Hedging'
   authors:
@@ -14,14 +27,10 @@
   orcid: 0009-0008-2494-0044
   plugin: orcid.py
   file: orcid.yaml
-- id: ':'
-  title: Automatic construction of nonparametric relational regression models for
-    multiple time series
-  publisher: International Conference on Machine Learning
-  date: '2024-03-31'
-  orcid: 0009-0008-2494-0044
-  plugin: orcid.py
-  file: orcid.yaml
+  image: https://ai-finance.org/wp-content/uploads/2023/08/49f54-crop-0-0-803-707-0-icaif-2023-logo-initial-3.png
+
+
+
 - title: Automatic Construction of Nonparametric Relational Regression Models for
     Multiple Time Series
   authors:
@@ -33,6 +42,8 @@
   link: http://proceedings.mlr.press/v48/hwangb16.pdf
   plugin: sources.py
   file: sources.yaml
+  image: https://icml.cc/static/core/img/icml-navbar-logo.svg
+
 - title: Discovering Latent Covariance Structures for Multiple Time Series
   authors:
   - Anh Tong
@@ -42,6 +53,8 @@
   link: http://proceedings.mlr.press/v97/tong19a/tong19a.pdf
   plugin: sources.py
   file: sources.yaml
+  image: https://icml.cc/static/core/img/icml-navbar-logo.svg
+
 - title: Confirmatory Bayesian online change point detection in the covariance structure
     of Gaussian processes
   authors:
@@ -54,6 +67,7 @@
   link: https://www.ijcai.org/Proceedings/2019/0340.pdf
   plugin: sources.py
   file: sources.yaml
+  image: https://d13i5xhouzkrd.cloudfront.net/assets/publisher-logos/logo-ijcai-color.png
 - title: Learning fractional white noises in neural stochastic differential equations
   authors:
   - Anh Tong
@@ -65,6 +79,7 @@
   link: https://proceedings.neurips.cc/paper_files/paper/2022/file/f51df088779c27cbb25b8f094a346544-Paper-Conference.pdf
   plugin: sources.py
   file: sources.yaml
+  image: https://neurips.cc/static/core/img/neurips-navbar-logo.svg
 - title: Learning Compositional Sparse Gaussian Processes with a Shrinkage Prior
   authors:
   - Anh Tong
@@ -76,6 +91,7 @@
   link: https://ojs.aaai.org/index.php/AAAI/article/download/17190/16997
   plugin: sources.py
   file: sources.yaml
+  image: https://aaai.org/wp-content/uploads/2024/04/AAAI-Card-AAAIConference-Updated.png
 - title: Characterizing Deep Gaussian Processes via Nonlinear Recurrence Systems
   authors:
   - Anh Tong
@@ -85,6 +101,7 @@
   link: https://ojs.aaai.org/index.php/AAAI/article/view/17191/16998
   plugin: sources.py
   file: sources.yaml
+  image: https://aaai.org/wp-content/uploads/2024/04/AAAI-Card-AAAIConference-Updated.png
 - id: doi:10.1007/s11356-023-29036-0
   title: Roles of ambient temperature and relative humidity on the relationship between
     fine particulate matter and gaseous pollutants in the largest industrial city
@@ -100,6 +117,8 @@
   link: https://doi.org/gtkz76
   plugin: sources.py
   file: sources.yaml
+  image: https://media.springernature.com/w316/springer-static/cover-hires/journal/11356?as=webp
+
 - title: Global Contrastive Learning for Long-Tailed Classification
   authors:
   - Thong Bach
@@ -112,3 +131,4 @@
   link: https://openreview.net/pdf?id=xWrtiJwJj5
   plugin: sources.py
   file: sources.yaml
+  image: https://jmlr.org/tmlr/img/tmlr.jpg

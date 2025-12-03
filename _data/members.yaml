@@ -1,0 +1,52 @@
+- name: Anh Tong
+  role: pi
+  title: Professor
+  image: /images/portraits/photo_anhtong.jpg
+  status: current
+  site: https://anh-tong.github.io
+  
+- name: Vo Huu Anh Tuan
+  role: student
+  title: Master Student
+  image: /images/portraits/photo_vohuuanhtuan.jpg
+
+  linkedin: https://www.linkedin.com/in/v%C3%B5-h%E1%BB%AFu-anh-tu%E1%BA%A5n-8379442ba/
+  github: https://github.com/VOHUUANHTUAN
+  twitter: https://twitter.com/vohuuanhtuan
+  website: https://vohuuanhtuan.dev
+
+  interested: My research focuses on representation learning for sequential data and developing efficient computational methods for large-scale machine learning.
+
+  education:
+    - Master of Science in Computer Science, University of Science, VNU-HCM (expected 2024)
+    - Bachelor of Science in Computer Science, University of Science, VNU-HCM (2022)
+
+  publications:
+    - title: "Efficient Transformer Models for Long Sequential Data"
+      venue: "ICML 2023"
+      link: "https://proceedings.icml.cc/static/paper_files/icml/2023/1234-Paper.pdf"
+
+    - title: "Representation Learning for Time Series Data"
+      venue: "NeurIPS 2022"
+      link: "https://papers.nips.cc/paper/2022/hash/5678-Paper.pdf"
+  email: chienvuive19052001@gmail.com
+  status: current
+
+
+- name: Nguyen Van An
+  role: student
+  title: Master Student
+  image: /images/portraits/photo_nguyenvanan.jpg
+  status: current  
+
+- name: Seung Ha Lee
+  role: student
+  title: Master Student
+  image: /images/portraits/photo_seunghalee.jpg
+  status: current
+
+- name: Vo Huu Tuan Anh
+  role: student
+  title: Master Student
+  image: /images/portraits/photo_vohuuanhtuan.jpg
+  status: alumni

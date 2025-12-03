@@ -5,4 +5,4 @@ nav:
   tooltip: Open positions
 ---
 
-We're looking for motivated students to join our lab starting from Fall 2024. 
+{% include open_positions.html %}
