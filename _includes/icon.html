@@ -5,6 +5,11 @@
   <span class="icon">
     {{- inline | strip_newlines -}}
   </span>
+{%- elsif include.icon contains ".png" or include.icon contains ".jpg" or include.icon contains ".jpeg" -%}
+  <span class="icon">
+    <img src="{{ include.icon | relative_url }}" alt="icon" />
+  </span>
+  
 {%- elsif include.icon and include.icon != "" -%}
   <i class="icon {{ include.icon }}"></i>
 {%- endif -%}

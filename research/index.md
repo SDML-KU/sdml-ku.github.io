@@ -5,12 +5,8 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-
-{% include section.html %}
-
-## All
+## Our papers published on leading conferences
 
 
 {% include search-box.html %}

@@ -1,10 +1,15 @@
 {{ " " }}
+
 <div class="card" data-style="{{ include.style }}">
+  {% if include.site %}
+    {% assign member_url = include.site | relative_url %}
+  {% else %}
+    {% assign member_slug = include.name | slugify %}
+    {% assign member_url = "/members/" | append: member_slug | append: "/" %}
+  {% endif %}
   <a
-    {% if include.link %}
-      href="{{ include.link | relative_url }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" }}"
+    href="{{ member_url }}"
+    aria-label="{{ include.title | default: "card site" }}"
     class="card-image"
   >
     <img
@@ -16,7 +21,7 @@
   </a>
 
   <div class="card-text">
-    {% if include.title %}
+    {% if include.name %}
       <a
         {% if include.link %}
           href="{{ include.link | relative_url }}"
@@ -26,12 +31,12 @@
         {% endif %}
         class="card-title"
       >
-        {{ include.title }}
-    </a>
+        {{ include.name }}
+      </a>
     {% endif %}
 
-    {% if include.subtitle %}
-      <span class="card-subtitle">{{ include.subtitle }}</span>
+    {% if include.title %}
+      <span class="card-subtitle">{{ include.title }}</span>
     {% endif %}
 
     {% if include.description %}

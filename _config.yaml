@@ -35,6 +35,7 @@ collections:
   # generate page for each member
   members:
     output: true
+    permalink: /members/:slug/
   # generate page for each post
   posts:
     output: true
@@ -45,7 +46,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-last-modified-at
+  # - jekyll-last-modified-at
 
 # code block syntax highlighting
 highlighter: rouge
