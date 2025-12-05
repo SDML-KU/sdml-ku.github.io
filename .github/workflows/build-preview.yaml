@@ -35,9 +35,10 @@ jobs:
         if: github.event.action != 'closed'
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.0"
+          ruby-version: "3.3.0"
           bundler-cache: true
-
+        env:
+          BUNDLE_CLEAN: true
       - name: Get Pages url
         if: github.event.action != 'closed'
         id: pages

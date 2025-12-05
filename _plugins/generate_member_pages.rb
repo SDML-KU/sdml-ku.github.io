@@ -1,3 +1,4 @@
+
 module Jekyll
   class GenerateMemberPages
     def initialize(site)
