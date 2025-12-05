@@ -117,30 +117,4 @@ nav > a:hover {
   }
 }
 
-header[data-big] {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 100px 20px;
-  top: unset;
-}
-header[data-big] .home {
-  flex-direction: column;
-  flex-grow: 0;
-}
-header[data-big] .logo {
-  height: 80px;
-}
-header[data-big] .title {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-header[data-big] .title > *:first-child {
-  font-size: var(--xxl);
-}
-header[data-big] .title > *:last-child {
-  font-size: var(--large);
-}
-
 /*# sourceMappingURL=header.css.map */
