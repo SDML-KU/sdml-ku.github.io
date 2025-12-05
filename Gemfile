@@ -3,6 +3,9 @@ source "https://rubygems.org"
 # jekyll
 gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.7"
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.3.0"
+gem "bigdecimal", "~> 3.3"
 
 # plugins
 group :jekyll_plugins do

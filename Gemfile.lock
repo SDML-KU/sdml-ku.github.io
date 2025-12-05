@@ -136,6 +136,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64 (~> 0.3.0)
+  bigdecimal (~> 3.3)
   csv (~> 3.3)
   jekyll (~> 4.3)
   jekyll-data-pages
