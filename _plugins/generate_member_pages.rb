@@ -1,4 +1,3 @@
-require "csv"
 
 module Jekyll
   class GenerateMemberPages

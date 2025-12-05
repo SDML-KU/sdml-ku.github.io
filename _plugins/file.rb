@@ -1,5 +1,4 @@
 require 'liquid'
-require "csv"
 
 module Jekyll
   module FileFilters
