@@ -30,9 +30,10 @@ jobs:
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.0"
+          ruby-version: "3.3.0"
           bundler-cache: true
-
+        env:
+          BUNDLE_CLEAN: true
       - name: Get Pages url
         id: pages
         uses: actions/configure-pages@v2
