@@ -39,14 +39,17 @@
   image: /images/portraits/photo_nguyenvanan.jpg
   status: current  
 
-- name: Seung Ha Lee
+
+- name: LEE Seung Ha
   role: student
   title: Master Student
   image: /images/portraits/photo_seunghalee.jpg
+  interested: PEFT, Alignment.
   status: current
 
-- name: Vo Huu Tuan Anh
+
+- name: Alumni
   role: student
   title: Master Student
-  image: /images/portraits/photo_vohuuanhtuan.jpg
+  image: /images/portraits/photo_default.jpg
   status: alumni
