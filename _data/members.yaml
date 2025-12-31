@@ -5,6 +5,29 @@
   status: current
   site: https://anh-tong.github.io
   
+
+- name: Nguyen Van An
+  role: student
+  title: Master Student
+  image: /images/portraits/photo_nguyenvanan.jpg
+  status: current  
+
+- name: Lee Seung Ha
+  role: student
+  title: Master Student
+  image: /images/portraits/photo_seungha.jpg
+  github: https://github.com/JLEESH
+
+  interested: PEFT, alignment.
+
+  education:
+
+  - Bachelor of Science in Computer Science, Korea University (2024)
+
+  publications:
+  email: jimmyleeshgm@gmail.com
+  status: current
+
 - name: Vo Huu Anh Tuan
   role: student
   title: Master Student
@@ -15,38 +38,16 @@
   twitter: https://twitter.com/vohuuanhtuan
   website: https://vohuuanhtuan.dev
 
-  interested: My research focuses on representation learning for sequential data and developing efficient computational methods for large-scale machine learning.
-
+  interested: My research focuses on knowledge distillation, with the rapid growth of foundation models, distillation has become a key technique for compressing large teachers into compact students while preserving performance.
+    
   education:
-    - Master of Science in Computer Science, University of Science, VNU-HCM (expected 2024)
-    - Bachelor of Science in Computer Science, University of Science, VNU-HCM (2022)
+    - Master of Science in Computer Science, University of Science, VNU-HCM (current)
+    - Bachelor of Science in Computer Science, University of Science, VNU-HCM (2024)
 
   publications:
-    - title: "Efficient Transformer Models for Long Sequential Data"
-      venue: "ICML 2023"
-      link: "https://proceedings.icml.cc/static/paper_files/icml/2023/1234-Paper.pdf"
+    - title: "Analyzing Spectral Information of Transformers"
+      venue: "CIKM 2025"
+      link: "https://xai.kaist.ac.kr/static/files/2025_hcai_workshop/paper_26.pdf"
 
-    - title: "Representation Learning for Time Series Data"
-      venue: "NeurIPS 2022"
-      link: "https://papers.nips.cc/paper/2022/hash/5678-Paper.pdf"
   email: chienvuive19052001@gmail.com
   status: current
-
-
-- name: Nguyen Van An
-  role: student
-  title: Master Student
-  image: /images/portraits/photo_nguyenvanan.jpg
-  status: current  
-
-- name: Seung Ha Lee
-  role: student
-  title: Master Student
-  image: /images/portraits/photo_seunghalee.jpg
-  status: current
-
-- name: Vo Huu Tuan Anh
-  role: student
-  title: Master Student
-  image: /images/portraits/photo_vohuuanhtuan.jpg
-  status: alumni

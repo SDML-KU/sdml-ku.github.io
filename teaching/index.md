@@ -6,6 +6,9 @@ nav:
 ---
 
 {% include icon.html icon="fa-solid fa-feather-pointed" %} Teaching
+<h3>Fall 2024</h3>
+
+- Natural Language Processing
 
 <h3>Spring 2024</h3>
 
