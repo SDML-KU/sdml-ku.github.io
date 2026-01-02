@@ -5,29 +5,7 @@
   status: current
   site: https://anh-tong.github.io
   
-
-- name: Nguyen Van An
-  role: student
-  title: Master Student
-  image: /images/portraits/photo_nguyenvanan.jpg
-  status: current  
-
-- name: Lee Seung Ha
-  role: student
-  title: Master Student
-  image: /images/portraits/photo_seungha.jpg
-  github: https://github.com/JLEESH
-
-  interested: PEFT, alignment.
-
-  education:
-
-  - Bachelor of Science in Computer Science, Korea University (2024)
-
-  publications:
-  email: jimmyleeshgm@gmail.com
-  status: current
-
+######
 - name: Vo Huu Anh Tuan
   role: student
   title: Master Student
@@ -51,3 +29,26 @@
 
   email: chienvuive19052001@gmail.com
   status: current
+#######
+- name: Nguyen Van An
+  role: student
+  title: Master Student
+  image: /images/portraits/no_avatar.jpg
+  status: current  
+########
+- name: Lee Seung Ha
+  role: student
+  title: Master Student
+  image: /images/portraits/no_avatar.jpg
+  github: https://github.com/JLEESH
+
+  interested: PEFT, alignment.
+
+  education:
+
+  - Bachelor of Science in Computer Science, Korea University (2024)
+
+  publications:
+  email: jimmyleeshgm@gmail.com
+  status: current
+
