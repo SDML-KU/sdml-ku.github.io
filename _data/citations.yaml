@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1145/3794839
+  title: 'Towards Transparent Time Series Analysis: Exploring Methods and Enhancing
+    Interpretability'
+  authors:
+  - Youngjin Park
+  - Anh Tong
+  - Sehyun Lee
+  - Jihyeon Seong
+  - Qin Xie
+  - Jaesik Choi
+  publisher: ACM Computing Surveys
+  date: '2026-03-10'
+  link: https://doi.org/hbv6tp
+  orcid: 0009-0008-2494-0044
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1145/3604237.3626841
   title: 'SigFormer: Signature Transformers for Deep Hedging'
   authors:
