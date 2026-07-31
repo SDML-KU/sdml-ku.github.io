@@ -30,11 +30,12 @@
   email: chienvuive19052001@gmail.com
   status: current
 #######
-- name: Nguyen Van An
+- name: "Nguyen Van An  &nbsp;&nbsp; | &nbsp;&nbsp; (An NGUYEN)"
   role: student
   title: Master Student
-  image: /images/portraits/no_avatar.jpg
-  status: current  
+  image: /images/portraits/photo_nguyenvanan.jpeg #/images/portraits/no_avatar.jpg
+  status: current
+  site: https://nguyen-an13.github.io
 ########
 - name: Lee Seung Ha
   role: student

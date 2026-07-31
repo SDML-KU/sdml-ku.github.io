@@ -20,3 +20,4 @@ end
 gem 'jekyll-data-pages'
 
 gem "csv", "~> 3.3"
+gem "ostruct"

@@ -86,6 +86,7 @@ GEM
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.1)
@@ -128,6 +129,7 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin-23
+  arm64-darwin-25
   linux
   universal-darwin-21
   universal-darwin-22
@@ -146,6 +148,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   jekyll-spaceship
+  ostruct
   webrick (~> 1.7)
 
 BUNDLED WITH
