@@ -29,6 +29,7 @@ highlight_authors:
   - Vo Huu Anh Tuan
   - Nguyen Van An
   - An Nguyen
+  - An V. Nguyen
   - Lee Seung Ha
 
 defaults:
@@ -42,8 +43,8 @@ scholar:
   bibliography: papers.bib
   bibliography_template: bib
   style: apa
-  sort_by: year,title
-  order: descending,ascending
+  sort_by: year
+  order: descending
   group_by: year
   group_order: descending
   bibliography_group_tag: h2

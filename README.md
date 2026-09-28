@@ -19,7 +19,8 @@ rebuilds and deploys the site automatically (`.github/workflows/deploy.yml`).
 ### Add a paper
 
 Paste the BibTeX entry (e.g. from Google Scholar, DBLP, or OpenReview) into
-`_bibliography/papers.bib`. The page groups and sorts by `year` automatically.
+`_bibliography/papers.bib`. The page groups papers by `year` automatically;
+within a year they appear in the order listed in the file.
 Optionally add any of these fields to show badges and links:
 
 ```bibtex
