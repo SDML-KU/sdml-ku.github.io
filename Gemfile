@@ -1,22 +1,14 @@
 source "https://rubygems.org"
 
-# jekyll
 gem "jekyll", "~> 4.3"
-gem "webrick", "~> 1.7"
-gem "csv", "~> 3.3"
-gem "base64", "~> 0.3.0"
-gem "bigdecimal", "~> 3.3"
+gem "webrick", "~> 1.8"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
 
-# plugins
 group :jekyll_plugins do
-  gem "jekyll-spaceship"
-  gem "jekyll-sitemap"
+  gem "jekyll-scholar", "~> 7.1"
   gem "jekyll-redirect-from"
-  gem "jekyll-feed"
-
+  gem "jekyll-sitemap"
 end
-
-
-gem 'jekyll-data-pages'
-
-gem "csv", "~> 3.3"

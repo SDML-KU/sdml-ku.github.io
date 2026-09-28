@@ -1,0 +1,31 @@
+# Lab members, shown on the People page.
+#
+# role:    pi | phd | ms | intern | alumni
+# image:   optional; path under /images/portraits/
+# website: optional; the name links here (falls back to github)
+# interests: optional; one short line
+
+- name: Anh Tong
+  role: pi
+  title: Professor
+  image: /images/portraits/photo_anhtong.jpg
+  website: https://anh-tong.github.io
+  interests: Probabilistic machine learning, neural differential equations, machine learning for finance.
+
+- name: Vo Huu Anh Tuan
+  role: ms
+  title: M.S. Student
+  image: /images/portraits/photo_vohuuanhtuan.jpg
+  website: https://vohuuanhtuan.dev
+  github: https://github.com/VOHUUANHTUAN
+  interests: Knowledge distillation for foundation models.
+
+- name: Nguyen Van An
+  role: ms
+  title: M.S. Student
+
+- name: Lee Seung Ha
+  role: ms
+  title: M.S. Student
+  github: https://github.com/JLEESH
+  interests: Parameter-efficient fine-tuning, alignment.

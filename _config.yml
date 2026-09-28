@@ -1,0 +1,64 @@
+title: Stochastic Dynamics and Machine Learning Lab
+short_title: SDML Lab
+affiliation: Korea University
+description: >-
+  The Stochastic Dynamics and Machine Learning (SDML) Lab at Korea University
+  studies probabilistic machine learning, neural differential equations,
+  and the dynamics of learning.
+url: https://sdml-ku.github.io
+email: anhtong12@korea.ac.kr
+github: sdml-ku
+
+# top navigation, in order
+nav:
+  - title: Home
+    url: /
+  - title: People
+    url: /people/
+  - title: Publications
+    url: /publications/
+  - title: Teaching
+    url: /teaching/
+  - title: Contact
+    url: /contact/
+
+# lab members' names are shown in bold in publication author lists
+# (must match the "First Last" spelling used in papers.bib)
+highlight_authors:
+  - Anh Tong
+  - Vo Huu Anh Tuan
+  - Nguyen Van An
+  - Lee Seung Ha
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+scholar:
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: bib
+  style: apa
+  sort_by: year,title
+  order: descending,ascending
+  group_by: year
+  group_order: descending
+  bibliography_group_tag: h2
+  bibliography_list_tag: ol
+  bibtex_skip_fields: [abstract, abbr, pdf, code, arxiv]
+  bibliography_list_attributes:
+    class: publications
+
+plugins:
+  - jekyll-scholar
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

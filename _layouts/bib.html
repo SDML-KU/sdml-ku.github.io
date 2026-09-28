@@ -1,0 +1,25 @@
+---
+---
+{%- capture authors -%}
+{%- for a in entry.author_array -%}
+{%- assign name = a.first | append: " " | append: a.last -%}
+{%- if site.highlight_authors contains name -%}<strong>{{ name }}</strong>{%- else -%}{{ name }}{%- endif -%}
+{%- unless forloop.last -%}{%- if forloop.rindex == 2 -%}{% if forloop.length > 2 %},{% endif %} and {% else %}, {% endif -%}{%- endunless -%}
+{%- endfor -%}
+{%- endcapture -%}
+<div class="pub" id="{{ key }}">
+  {% if entry.abbr %}<span class="venue-badge">{{ entry.abbr }}</span>{% endif %}
+  <div class="pub-body">
+    <div class="pub-title">{{ entry.title }}</div>
+    <div class="pub-authors">{{ authors }}</div>
+    <div class="pub-venue">{{ entry.journal | default: entry.booktitle }}, {{ entry.year }}</div>
+    <div class="pub-links">
+      {% if entry.pdf %}<a href="{{ entry.pdf }}">PDF</a>{% endif %}
+      {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>{% endif %}
+      {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}">DOI</a>{% endif %}
+      {% if entry.code %}<a href="{{ entry.code }}">Code</a>{% endif %}
+      {% if entry.url %}<a href="{{ entry.url }}">Website</a>{% endif %}
+      <details><summary>BibTeX</summary><pre>{{ entry.bibtex | xml_escape }}</pre></details>
+    </div>
+  </div>
+</div>

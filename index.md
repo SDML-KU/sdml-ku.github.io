@@ -1,10 +1,28 @@
 ---
+title: Home
+permalink: /
 ---
-{% include carousel.html images="4.png,10.png,5.png" %}
 
-## About Our Working
+The **Stochastic Dynamics and Machine Learning (SDML) Lab** at Korea University
+studies the dynamics inherent in both data and models.
 
-The SDML lab focuses on understanding and modeling the inherent dynamics within both data and models. Firstly, the primary emphasis is on data, with extensive research into probabilistic machine learning tools such as Gaussian processes and neural differential equations, thereby advancing the frontier in these domains. On the model front, the objective is to investigate the equivalence between deep learning models employing neural differential equations and the correspondence between training dynamics, aiming to reveal their theoretical properties. The applications target in diverse areas such as time series analysis, explaining sequential data, and financial modeling encompassing pricing, hedging, and risk neutralization.
+On the **data** side, we develop probabilistic machine learning tools such as
+Gaussian processes and neural differential equations. On the **model** side, we
+study the connection between deep networks and neural differential equations,
+and the training dynamics of deep learning, in order to understand their
+theoretical properties. Applications include time series analysis,
+interpretability of sequential data, and financial modeling (pricing, hedging,
+and risk management).
 
+### Research topics
 
+- Gaussian processes and Bayesian nonparametrics
+- Neural ordinary and stochastic differential equations
+- Training dynamics and theory of deep learning
+- Time series, interpretability, and machine learning for finance
 
+## Recent publications
+
+{% bibliography --group_by none --max 5 %}
+
+[All publications &rarr;]({{ '/publications/' | relative_url }})

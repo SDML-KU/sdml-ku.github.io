@@ -1,0 +1,10 @@
+{%- assign m = include.member -%}
+{%- assign link = m.website | default: m.github -%}
+<div class="member">
+  <img src="{{ m.image | default: '/images/portraits/no_avatar.jpg' | relative_url }}" alt="{{ m.name }}" loading="lazy">
+  <div>
+    <div class="member-name">{% if link %}<a href="{{ link }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</div>
+    <div class="member-title">{{ m.title }}</div>
+    {% if m.interests %}<div class="member-interests">{{ m.interests }}</div>{% endif %}
+  </div>
+</div>
