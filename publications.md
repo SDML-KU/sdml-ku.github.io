@@ -6,7 +6,7 @@ redirect_from:
 ---
 
 Lab members are shown in **bold**. See also
-[Google Scholar](https://scholar.google.com/scholar?q=%22Anh+Tong%22).
+[Google Scholar]({{ site.scholar_url }}).
 
 {% bibliography %}
 
