@@ -20,9 +20,12 @@
   github: https://github.com/VOHUUANHTUAN
   interests: Knowledge distillation for foundation models.
 
-- name: Nguyen Van An
+- name: "Nguyen Van An  &nbsp; (An NGUYEN)"
   role: ms
   title: M.S. Student
+  image: /images/portraits/photo_nguyenvanan.jpeg
+  website: https://nguyen-an13.github.io
+  interests: PEFT (main), Efficient LLMs, Test-time scaling (exploring)
 
 - name: Lee Seung Ha
   role: ms
